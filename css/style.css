@@ -1,0 +1,217 @@
+/*  =========================== END LAYOUT PRINTING================================== */
+/*  =========================== ============== ====================================== */
+
+
+
+.bootstrap-table thead th {
+	vertical-align:center;
+	height:16px !important;
+	/* background:-moz-linear-gradient(top, #48CFAD,#37BC9B);
+	background:-webkit-linear-gradient(top, #48CFAD,#37BC9B);  */
+	background:-moz-linear-gradient(top, #0859b5,#4585cf);
+	background:-webkit-linear-gradient(top, #0859b5,#4585cf); 
+	color:#fff;
+	font-weight:bold;
+	font-size:13px;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	
+}
+
+
+.table tbody tr > td.success {
+  background-color: #dff0d8 !important;
+}
+
+.table tbody tr > td.error {
+  background-color: #f2dede !important;
+}
+
+.table tbody tr > td.warning {
+  background-color: #fcf8e3 !important;
+}
+
+.table tbody tr > td.info {
+  background-color: #d9edf7 !important;
+}
+
+.table-hover tbody tr:hover > td.success {
+  background-color: #d0e9c6 !important;
+}
+
+.table-hover tbody tr:hover > td.error {
+  background-color: #ebcccc !important;
+}
+
+.table-hover tbody tr:hover > td.warning {
+  background-color: #faf2cc !important;
+}
+
+.table-hover tbody tr:hover > td.info {
+  background-color: #c4e3f3 !important;
+}
+
+#detail-field{
+	background-color:transparent; 
+	border:none; 
+	width:100%;
+	font-family: isi;
+	font-size:11pt; 
+	pointer-events: none;
+}
+
+#detail-field:focus{
+	border:none;
+	outline: none;
+	box-shadow:none;
+	
+}
+
+
+
+input[readonly],
+input[disabled],
+select[readonly],
+select[disabled],
+textarea[readonly],
+textarea[disabled]{
+  /** font-family: inherit; **/
+  font-size:inherit; 
+  line-height: inherit;
+  font-family: isi;
+}
+
+
+
+h5.modal-title,.header-title{
+	font-family: mainandra;
+	font-size:13pt;
+	color:#3b4f3b;
+	
+}
+
+
+
+.round {
+    /* border-radius: 50%;
+    overflow: hidden;
+	width:160px;
+	height:180px;
+	border:2px solid #d6edc0; */
+	text-align:center;
+	overflow: hidden;
+	width:250px;
+	height:158px;
+	border: 1px solid;
+	border-color: #c4c4c4 #d1d1d1 #d4d4d4;
+	border-radius: 12px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.12);
+	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
+    }
+
+	.float-container {
+		position: fixed;
+		top: 38%;
+		right: 0px;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		flex-direction: column;
+		width: auto;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		-webkit-box-align: end;
+		-ms-flex-align: end;
+		align-items: flex-end;
+    z-index: 999;
+	}
+ 
+	.float-container a {
+		z-index: 99;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		width: 160px;
+		height: 50px;
+		margin-right: -110px;
+		margin-bottom: 10px;
+		padding: 10px 10px;
+		-webkit-transition: all 0.3s ease-in-out;
+		transition: all 0.3s ease-in-out;
+		text-decoration: none;
+		color: white;
+		border-color: #46b8da;
+		border-radius: 5px 0 0 5px;
+		background-color: rgb(127, 147, 235);
+		-webkit-box-shadow: 0 2px 4px #7d7d7d;
+		box-shadow: 0 2px 4px #7d7d7d;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+		-webkit-box-pack: start;
+		-ms-flex-pack: start;
+		justify-content: flex-start;
+		font-family: sans-serif;
+	}
+ 
+	.float-container a:hover {
+		margin-right: 0;
+		background-color: rgb(16, 39, 172);
+		-webkit-box-shadow: 0 2px 4px #7d7d7d;
+		box-shadow: 0 2px 4px #7d7d7d;
+	}
+ 
+	.float-container .icon:before {
+		font-family: "Font Awesome 5 Free";
+		margin-right: 25px;
+		-webkit-transition: all 0.25s ease-in-out;
+		transition: all 0.25s ease-in-out;
+	}
+ 
+ 
+	@media screen and (max-width:440px)
+	{
+		.float-container .icon:last-child {
+			display: none;
+		}
+		.float-container
+		{
+			position: fixed;
+			top: auto;
+			bottom: 0;
+ 
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+				-ms-flex-direction: row;
+					flex-direction: row;
+ 
+			width: 100%;
+ 
+			-webkit-box-orient: vertical;
+			-webkit-box-direction: normal;
+			-ms-flex-direction: auto;
+			-webkit-box-align: auto;
+			-ms-flex-align: auto;
+			align-items: auto;
+		}
+			.float-container a.icon
+		{
+			right: 0;
+			bottom: 0;
+ 
+			width: 100%;
+			margin-right: 0;
+			margin-bottom: 0;
+			padding: 5px;
+ 
+			border-radius: 0;
+			-webkit-box-shadow: 0 0 0 #7d7d7d;
+					box-shadow: 0 0 0 #7d7d7d;
+			-webkit-box-pack: center;
+			-ms-flex-pack: center;
+			justify-content: center;
+			border-left: 1px solid darkorange;
+			border-right: 1px solid darkorange;
+		}
+	}

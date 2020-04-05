@@ -1,0 +1,88 @@
+
+/*  ======================= TABLE DATA ATRIBUT  ===================================== */
+
+/*  =========================== ============== ====================================== */
+table.kop {
+	margin:auto;
+	border-collapse:collapse;
+	color:black;
+	padding: 0px;
+
+}
+
+hr.kop_hr{
+	border: 0;
+    height: 2px;
+    background-image: -webkit-linear-gradient(left, #dadada, #333, #dadada);
+    background-image:    -moz-linear-gradient(left, #dadada, #333, #dadada);
+    background-image:     -ms-linear-gradient(left, #dadada, #333, #dadada);
+    background-image:      -o-linear-gradient(left, #dadada, #333, #dadada);
+	margin-top:2px;
+}
+hr.kop_hr2{
+	border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, #dadada, #333, #dadada);
+    background-image:    -moz-linear-gradient(left, #dadada, #333, #dadada);
+    background-image:     -ms-linear-gradient(left, #dadada, #333, #dadada);
+    background-image:      -o-linear-gradient(left, #dadada, #333, #dadada);
+	margin-top:-12px;
+}
+
+
+
+
+table.cetak_report {
+	margin:auto;
+	border-collapse:collapse;
+	border:1px solid black;
+	
+	
+}
+
+table.cetak_report th{
+		vertical-align:middle;
+		padding:8px 3px 8px 3px;
+		border:1px solid #878787;
+		font-weight:bold;
+		font-size:10pt;
+		background:#e8e7e9;
+}
+
+
+
+
+table.cetak_report td {
+	font:normal 9pt Arial,Sans-Serif;
+	padding:5px 6px 5px 6px;
+	vertical-align:center;
+	border:1px solid #474747;
+	color:#383c43;
+}
+
+
+
+table.cetak_report td.tengah {
+	vertical-align:middle;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+table.sign_report {
+	margin:auto;
+	page-break-inside: avoid;
+	
+	}
+
+
+table.sign_report td {
+	font:normal 11pt Arial,Sans-Serif;
+	text-align: center;
+	color:#383c43;
+}
